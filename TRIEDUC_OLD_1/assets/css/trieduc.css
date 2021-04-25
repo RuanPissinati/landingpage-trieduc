@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.principal-section{
+    padding-top: 100px;;
+    background-color: #fff;
+}
+.main.title{
+    color: #a431fe;
+}
+.brand{
+    width: 250px;
+    margin: 15px;
+}
+.menu-fixed{
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background-color: #929292;
+    width: 100%;
+    left: 0;
+    padding: 10px 0 20px 0;
+}
+.principal-section h1{
+    font-size: 6.5em;
+    line-height: 1.1em;
+    letter-spacing: 0;
+    color: #2F2E2E;
+    margin: 50px 0;
+    font-weight: normal;
+    animation-duration: 4s;
+}
+.btn-simular{
+    display: block;
+    color: #fff;
+    background-color: #a431fe;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto 10px auto;
+    font-size: 16px;
+    width: 315px;
+    border: 0;
+    transition: 0.3s;
+    cursor: pointer;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+}
+.btn-simular:hover{
+    background-color: #8130bf;
+    transition: 0.3s;
+}
+.arrow-back{
+    width: 55px;
+    height: 55px;
+    transform: rotate(-45deg);
+    border-left: 8px solid #2F2E2E;
+    border-bottom: 8px solid #2F2E2E;
+    margin: 0 auto 50px auto;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+.arrow-back:hover{
+    border-color: #8130bf;
+    transition: 0.3s;
+}
+.menu-list{
+    margin: 50px 0 0 0;
+}
+.menu-list .menu-list-item{
+    display: inline;
+    margin-left: 10px;
+}
+.menu-list .menu-list-item a:hover{
+    color: #14e7cf;
+}
+.menu-list .menu-list-item a{
+  font-size: 13px;
+  color: #fff;
+}
+.form-section{
+    text-align: center;
+}
+.form-section h2{
+    width:70%;
+    font-size: 26px;
+    display: table;
+    margin: 100px auto 25px;
+    color: #2F2E2E;
+}
+.form-section p{
+    width: 75%;
+    font-size: 18px;
+    display: table;
+    margin: 0 auto 25px;
+    color: #2F2E2E;
+}
+.form-cadastro h2{
+    font-size: 60px;
+    display: table;
+    margin: 50px auto 25px;
+    color: #2F2E2E;
+    font-weight: normal;
+    line-height: 1.2em;
+    letter-spacing: 0.07em;
+    width: 95%;
+}
+.form-cadastro{}
+.form-cadastro input{
+    width: 100%;
+    border: 2px solid #373b4d;
+    height: 30px;
+    margin: 0 0 10px 0;
+    padding-left: 10px;
+    font-style: italic;
+    color: #373b4d;
+    font-size: 16px;
+}
+.form-cadastro textarea{
+    width: 100%;
+    border: 2px solid #373b4d;
+    margin: 0 0 85px 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 150px;
+    font-style: italic;
+    color: #373b4d;
+    font-size: 16px;
+}
+.form-cadastro a{
+    display: block;
+    width: 130px;
+    height: 50px;
+    background-color: #a431fe;
+    color: #fff;
+    border: 0;
+    margin-bottom: 20px;
+    font-style: italic;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+.fique-ligado-banner {
+    background-color: #14e7cf;
+    width: 284px;
+    display: table;
+    height: 329px;
+    margin: 24% auto 20px auto;
+    position: relative;
+}
+.fique-ligado-banner .fique-ligado-label{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #14e7cf;
+    display: table;
+    opacity: 0;
+    z-index: 1;
+    padding-top: 20px;
+}
+.fique-ligado-banner .fique-ligado-label:hover{
+    opacity: 1;
+}
+.fique-ligado-banner .fique-ligado-label p{
+    font-size: 14px;
+}
+.fique-ligado-banner p.fique-ligado-banner-text{
+    color: #fff;
+    border-top: 1px solid #000;
+    font-size: 56px;
+    border-bottom: 1px solid #000;
+    padding: 10px 0;
+    margin-top: 73px;
+    width: 175px;
+}
+.paralaxy{
+    background-image: url('../img/bg-paralaxy.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: -200px;
+    background-size: auto 100%;
+    height: 680px;
+}
+.simulador-section{}
+.simulador-section .col-2:last-child{
+    background-color: #cccccc;
+    height: 680px;
+    text-align: center;
+    color: #2F2E2E;
+}
+.simulador-section .col-2:last-child h2{
+    font-size: 50px;
+    margin: 80px 0 60px;
+}
+.simulador-section .col-2:last-child p{
+    font-size: 18px;
+    margin: 0 0 30px;
+}
+.btn-simular-sisu{
+    color: #fff;
+    background-color:#a431fe;
+    width: 170px;
+    height: 42px;
+    text-align: center;
+    font-size: 14px;
+    border: 0;
+    margin-bottom: 20px;
+}
+.enem-section{}
+.enem-section .title-enem{
+    font-size: 112px;
+    color:  #2F2E2E;
+    text-align: center;
+    margin-top: 20px;
+}
+.enem-section p{
+    font-size: 18px;
+    color: #2F2E2E;
+    text-align: center;
+    width: 70%;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.cards-list {
+    display: table;
+    width: 100%;
+    margin: 50px 0 20px 0;
+}
+.cards-list .card-list-item{
+    width: 24%;
+    margin-left: 1%;
+    display: table;
+    float: left;
+    background-color: #ccc;
+    padding: 14px;
+    height: 335px;
+    position: relative;
+}
+.cards-list .card-list-item img{
+    width: 38px;
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -19px;
+}
+.cards-list .card-list-item:first-child{
+    margin-left: 0;
+}
+.cards-list .card-list-item h2{
+    text-align: center;
+    font-size: 26px;
+    color: #fff;
+    margin: 25px 0 20px 0;
+}
+.cards-list .card-list-item p{
+    text-align: left;
+    color: #fff;
+    width: 100%;
+    font-size: 14px;
+}
+.cards-list .card-list-item img{}
+.teory-section{
+    background-color: #cccccc;
+    padding-bottom: 40px;
+}
+.teory-section h2{
+    font-size: 50px;
+    color:  #2F2E2E;
+    text-align: center;
+    margin: 100px 0 60px;
+}
+.teory-section p{
+    font-size: 18px;
+    color: #2F2E2E;
+    text-align: center;
+    width: 70%;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.about-section{
+    background: #2F2E2E;
+}
+.about-section h2 {
+    font-size: 100px;
+    line-height: 1.1em;
+    color: #fff;
+    margin: 60px 0 50px 0;
+    text-align: center;
+}
+.card-icon-list{
+    display: table;
+    width: 89%;
+    margin: 0 auto 60px;
+}
+.card-icon-item{
+    width: 28.333%;
+    float: left;
+    margin-right: 7.5%;
+    display: inline;
+}
+.card-icon-item:last-child{
+    margin-right: 0%;
+}
+.about-section .icon-card-list {
+    display: table;
+    width: 100%;
+    border-bottom: 6px solid #fff;
+    
+}
+.about-section .card-icon-item h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin: 30px 0;
+}
+.about-section .card-icon-item p{
+    color: #fff;
+    font-size: 14px;
+}
+.about-section .icon-card-list img{
+    height: 100px;
+    width: auto;
+    display: block;
+    margin: 30px auto;
+}
+.footer-section{
+    background-color:#a431fe;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-section h3{
+    font-size: 18px;
+    width: 100%;
+    border-top: 3px solid #fff;;
+    margin: 0 0 20px 0;
+    padding: 20px 0 0 0;
+    font-weight: bold;
+    color: #fff;
+}
+.footer-section p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+.item-rodape{}
+.item-rodape ul{}
+.item-rodape ul li{}
+.item-rodape ul li a{
+    color: #fff;
+}
+.item-rodape ul li a:hover{
+    color: #b5d229;
+}
+.lista-redes{}
+.lista-redes li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.lista-redes li a{}
+.lista-redes li a img{
+    height: 30px;
+    width: auto;
+    margin-right: 15px;
+}
+.lista-redes li:last-child{
+    margin-right: 0px;
+}
+.close-button{
+    width: 47px;
+    display: table;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 8px -63px 0 0px;
+    cursor: pointer;
+    height: 60px;
+}
+.close-button span:last-child {
+    margin: -7px 0 0 0;
+    transform: rotate(45deg);
+}
+.close-button span{
+    width: 100%;
+    background-color: #fff;
+    height: 8px;
+    margin: 22px 0 0 0;
+    display: block;
+    transform: rotate(-45deg);
+}
+.menu-button {
+    display: table;
+    width: 46px;
+    margin: 15px 0 0 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+}
+.menu-button span:last-child{
+    margin-bottom: 0;
+}
+.menu-button span{
+    width: 100%;
+    background-color: #fff;
+    height: 6px;
+    margin-bottom: 9px;
+    display: block;
+}
+.menu-mobile{
+    display: none;
+    background-color: #2F2E2E;
+    height: 70px;
+    position: fixed;
+    z-index: 9;
+}
+@media screen and (max-width: 866px) {
+    .principal-section h1{
+        font-size: 4.5em;
+    }
+    .simulador-section .col-2:last-child h2 {
+        font-size: 2em;
+        margin: 20px 0;
+    }
+    .fique-ligado-banner {
+        width: 284px;
+        margin: 6% auto 6%;
+    }
+}
+@media screen and (max-width: 616px) {
+    .brand {
+        width: 130px;
+        margin: 20px 0 0 0;
+        float: right;
+    }
+    .principal-section{
+        padding-top: 0;
+    }
+    .principal-section h1{
+        font-size: 3.5em;
+        margin-top: 100px;
+    }
+    .enem-section .title-enem, .about-section h2{
+        font-size: 3.5em;
+    }
+    .form-section p, .form-section h2, .enem-section p,.teory-section p{
+        width: 95%;
+    }
+    .paralaxy{
+        background-position: center;
+        background-size: cover;
+        height: 270px;
+    }
+    .simulador-section .col-2:last-child {
+        height: 500px;
+    }
+    .teory-section h2 {
+        font-size: 2.2em;
+    }
+    .cards-list .card-list-item, .card-icon-item, .col.col-4 {
+        width: 100%;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .menu-fixed {
+        display: none;
+    }
+    .footer-section {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .menu-mobile{
+        display: table;
+    }
+    .menu-list{
+        margin: 0;
+        padding-top: 10px;
+        height: 100vh;
+    }
+    .menu-list .menu-list-item {
+        display: block;
+        height: 60px;
+        border-bottom: 1px solid #fff;
+        margin: 0;
+    }
+    .menu{
+        border-right: 1px solid #0d2dce;
+        position: fixed;
+        width: 80%;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        background: #232121;
+        z-index: 99;
+        margin-left: -100%;
+        transition: 0.3s;
+    }
+    .menu-list .menu-list-item a{
+        width: 100%;
+        height: 100%;
+        display: block;
+        font-size: 1.4em;
+        padding-left: 20px;
+        padding-top: 18px;
+    }
+    .arrow-back {
+        width: 35px;
+        height: 35px;
+        margin: 30px auto 50px auto;
+    }
+    .btn-simular {
+        width: 100%;
+    }
+}

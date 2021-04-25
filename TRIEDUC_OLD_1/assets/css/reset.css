@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Staatliches&display=swap');
+@font-face {
+    font-family: 'specialalphabetsp10';
+    src: url('../fonts/webfontkit-20191029-000448/specialalphabetsp10-webfont.woff') format('woff2'),
+         url('../fonts/webfontkit-20191029-000448/specialalphabetsp10-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon_grotesqueregular';
+    src: url('../fonts/webfontkit-20191029-041042/af1f9cf6d51df55b85e1b496776585c4-webfont.woff2') format('woff2'),
+         url('../fonts/webfontkit-20191029-041042/af1f9cf6d51df55b85e1b496776585c4-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+h1, h2, h3, h4, h5, h5, a, b, span, a, p, article, button, label{
+    font-family: 'brandon_grotesqueregular', Arial, sans-serif;
+}
+ul{
+    list-style: none;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}

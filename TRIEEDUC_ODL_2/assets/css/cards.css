@@ -1,0 +1,40 @@
+/* Card Feutures */
+
+.card-feutures{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid green;
+}
+.card-feutures .icon{
+  width: 30px;
+  height: auto;
+  margin: 20px auto;
+}
+/* fonts */
+.card-feutures .third-title{}
+.card-feutures .text{
+  text-align: center;
+  width: 80%;
+}
+/* End Card Feutures */
+
+/* Card Produto */
+.card-product{
+  display: flex;
+  max-width: 400px;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  min-height: 30px;
+  border: 1px solid;
+}
+.card-product .header{}
+.card-product .body{}
+.card-product .footer{}
+
+/* fonts */
+.card-product .header .sub-title{}
+.card-product .body .sub-title{}

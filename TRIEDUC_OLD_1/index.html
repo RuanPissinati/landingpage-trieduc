@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TRIieduc</title>
+
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/trieduc.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <script src="assets/vendors/jquery.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Ads: 698641771 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-698641771"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-698641771');
+        gtag('config', 'UA-151165583-1'); 
+    </script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+    <section class="principal-section" id="main">
+        <div class="container">
+            <div class="row menu-fixed">
+                <div class="container">
+                    <div class="col col-2">
+                        <!-- LOGO -->
+                        <div class="brand"><img src="assets/img/logo.png" alt="trieduc"></div>
+                    </div>
+                    <div class="col col-2">
+                        <!-- MENU -->
+                        <nav class="menu">
+                            <ul class="menu-list">
+                                <li class="menu-list-item"><a href="#main">Pagina Inicial</a></li>
+                                <li class="menu-list-item"><a href="#enem-a">Enem 2019</a></li>
+                                <li class="menu-list-item"><a href="#simulador">Simulador Sisu</a></li>
+                                <li class="menu-list-item"><a href="#enem">Enem</a></li>
+                                <li class="menu-list-item"><a href="#tri">Tri</a></li>
+                                <!-- <li class="menu-list-item"><a href="#sobre">Sobre nÃ³s</a></li> -->
+                                <li class="menu-list-item"><a>Login</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-mobile">
+                <div class="col">
+                    <div class="brand"><img src="assets/img/logo.png" alt="trieduc"></div>
+                    <button class="menu-button" id="btn-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <nav class="menu" id="menu-mobile">
+                        <ul class="menu-list">
+                            <li class="menu-list-item"><a href="#main" onclick="toogleButton(true)">Pagina Inicial</a>
+                            </li>
+                            <li class="menu-list-item"><a href="#enem-a" onclick="toogleButton(true)">Enem 2019</a></li>
+                            <li class="menu-list-item"><a href="#simulador" onclick="toogleButton(true)">Simulador
+                                    Sisu</a></li>
+                            <li class="menu-list-item"><a href="#enem" onclick="toogleButton(true)">Enem</a></li>
+                            <li class="menu-list-item"><a href="#tri" onclick="toogleButton(true)">Tri</a></li>
+                            <!-- <li class="menu-list-item"><a href="#sobre" onclick="toogleButton(true)">Sobre nÃ³s</a></li> -->
+                            <li class="menu-list-item"><a onclick="toogleButton(true)">Login</a></li>
+                        </ul>
+                        <div class="close-button" id="close-button">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h1 class="animated fadeIn main-title">
+                        DESCUBRA SUA <br>
+                        NOTA NO <br>
+                        ENEM 2019
+                    </h1>
+                    <button class="btn-simular animated fadeIn">
+                        Simular agora!
+                    </button>
+                    <a id="arrow-back" href="#enem-a" class="arrow-back animated fadeIn"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-section" id="enem-a">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="">Se vocÃª estÃ¡ ansioso para descobrir seu resultado no Enem, a gente te dÃ¡ uma forÃ§a!
+                    </h2>
+                    <p>
+                        A TRIEduc Ã© especialista na Teoria de Resposta ao Item, metodologia utilizada no Enem para
+                        calcular sua nota. E para te ajudar, preparamos um SIMULADOR DA NOTA DO ENEM 2019 a partir do
+                        tratamento estatÃ­stico dos dados das ediÃ§Ãµes anteriores do teste.
+                    </p>
+                    <p>
+                        Preencha o cadastro a seguir e tenha acesso ao formulÃ¡rio em que vocÃª colocarÃ¡ suas respostas
+                        Ã s questÃµes das provas do Enem 2019 e pronto: <br>
+                        calcularemos sua nota e vocÃª poderÃ¡ jÃ¡ ter uma ideia de como se saiu
+                    </p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-2" style="position: relative;">
+                    <form class="form-cadastro">
+                        <h2>Sua nota no Enem 2019!</h2>
+
+                        <!--<input type="text" placeholder="Nome"> <br>
+                        <input type="email" placeholder="E-mail"> <br>
+                        <input type="text" placeholder="Cidade"> <br>
+                        <input type="text" placeholder="Estado"> <br>
+                        <input id="cellphone" type="text" placeholder="Telefone"> <br>
+                        <input type="text" placeholder="Curso Desejado"> <br>
+                        <input type="text" placeholder="Escola que concluiu Ensino MÃ©dio"> <br>
+                        <input type="text" placeholder="Ano ConclusÃ£o"> <br>-->
+                        <!-- <input type="text" placeholder="Assunto"> <br> -->
+                        <!-- <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua menssagem"></textarea> -->
+                        <a class="btn-submit-form" href="http://app.suanotadoenem.com.br">Cadastrar</a>
+                    </form>
+                </div>
+                <div class="col col-2">
+                    <div class="fique-ligado-banner">
+                        <div class="fique-ligado-label">
+                            <p>
+                                A nota oficial do Enem é disponibilizada no site oficial do Inep alguns meses após a
+                                realização da prova, normalmente no mês de janeiro.
+
+                                O que disponibilizamos aqui é um SIMULADOR DA SUA NOTA, feito a partir do tratamento
+                                estatístico dos dados das ediç&otilde;ões anteriores do Enem.
+
+                                Nossa intenção é oferecer uma pista de como foi seu desempenho na edição de 2019,
+                                mas não podemos garantir que acertaremos todos os resultados, ok?
+                            </p>
+                        </div>
+                        <p class="fique-ligado-banner-text">Fique Ligado!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="simulador-section" id="simulador">
+        <div class="container full">
+            <div class="row">
+                <div class="col col-2 paralaxy"></div>
+                <div class="col col-2">
+                    <h2>SIMULADOR SiSU</h2>
+                    <p>
+                        Ficou contente com sua nota?
+                    </p>
+                    <p>
+                        Acha que poderia ter ido melhor?
+                    </p>
+                    <p>
+                        Se vocÃª jÃ¡ calculou sua nota no Enem 2019 com a <br>
+                        gente, pode tambÃ©m simular <br>
+                        os benefÃ­cios a que pode ter acesso!
+                    </p>
+                    <p>
+                        Entre no nosso simulador das notas de corte do Sisu <br>
+                        nas ediÃ§Ãµes anteriores. Nele Ã© possÃ­vel descobrir em <br>
+                        quais faculdades vocÃª pode entrar com a estimativa da <br>
+                        sua nota no Enem 2019.
+                    </p>
+                    <button class="btn-simular-sisu">Simulador SiSU</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="enem-section" id="enem">
+        <div class="container">
+            <div class="col">
+                <h2 class="title-enem">ENEM</h2>
+                <p>
+                    O Enem, Exame Nacional do Ensino MÃ©dio, Ã© uma avaliaÃ§Ã£o realizada anualmente pelo <br>
+                    MinistÃ©rio da EducaÃ§Ã£o (MEC/Inep) com o objetivo principal de fornecer um diagnÃ³stico sobre o
+                    <br>
+                    nÃ­vel de domÃ­nio que os alunos que concluÃ­ram ou estÃ£o concluindo a educaÃ§Ã£o bÃ¡sica tÃªm
+                    sobre <br>
+                    competÃªncias e habilidades nas Ã¡reas de <br>
+                    Linguagens e CÃ³digos, MatemÃ¡tica, CiÃªncias da Natureza e CiÃªncias Humanas.
+                </p>
+                <p>
+                    Os dados fornecidos pelo Enem informam acerca do desempenho acadÃªmico dos alunos e sÃ£o <br>
+                    utilizados como suporte para o desenvolvimento de polÃ­ticas pÃºblicas e aÃ§Ãµes pedagÃ³gicas que
+                    <br>
+                    beneficiam os sistemas e redes de ensino do paÃ­s.
+                </p>
+                <p>
+                    AlÃ©m disso, atualmente, o Enem Ã© o principal mÃ©todo de ingresso nas instituiÃ§Ãµes de ensino
+                    superior e, em muitos casos, substituiu o vestibular.
+                </p>
+                <p>Confira o que vocÃª pode fazer com anota do Enem:</p>
+                <div class="cards-list">
+                    <!-- SISU -->
+                    <a href="http://www.sisu.mec.gov.br/" id="card-list-1" class="card-list-item"
+                        style="background-color:#605E5E">
+                        <h2>Sisu</h2>
+                        <p>
+                            Um sistema em que vocÃª concorre
+                            a vagas de cursos de graduaÃ§Ã£o
+                            em universidades pÃºblicas de todo
+                            o paÃ­s.
+                        </p>
+                        <p>
+                            Confira mais informaÃ§Ãµes sobre o
+                            SiSU na pÃ¡gina oficial.
+                        </p>
+                        <img src="assets/img/icons/seta-right.png" alt="->">
+                    </a>
+                    <!-- FIES -->
+                    <a href="http://fies.mec.gov.br/" id="card-list-2" class="card-list-item"
+                        style="background-color:#14e7cf">
+                        <h2>FIES</h2>
+                        <p>
+                            Um programa de financiamento
+                            estudantil para cursar o Ensino
+                            Superior em universidades
+                            privadas.
+                        </p>
+                        <p>
+                            Confira mais informaÃ§Ãµes sobre o Fies na pÃ¡gina oficial.
+                        </p>
+                        <img src="assets/img/icons/seta-right.png" alt="->">
+                    </a>
+                    <!-- ProUni -->
+                    <a href="http://siteprouni.mec.gov.br/" id="card-list-3" class="card-list-item"
+                        style="background-color:#A0A09F">
+                        <h2>ProUni</h2>
+                        <p>
+                            Uma concessÃ£o de bolsas de
+                            estudo integrais e parciais em
+                            universidades privadas para
+                            estudantes de baixa renda.
+                        </p>
+                        <p>
+                            Confira mais informaÃ§Ãµes sobre o
+                            Prouni na pÃ¡gina oficial.
+                        </p>
+                        <img src="assets/img/icons/seta-right.png" alt="->">
+                    </a>
+                    <!-- Portugal -->
+                    <a href="[http://portal.inep.gov.br/web/guest/enem/enem-portugal" id="card-list-4"
+                        class="card-list-item" style="background-color: #a431fe;">
+                        <h2>Portugal</h2>
+                        <p>
+                            Algumas universidades
+                            portuguesas aceitam a nota do
+                            Enem como forma de ingresso.
+                        </p>
+                        <p>
+                            Confira mais informaÃ§Ãµes no site
+                            do Inep!
+                        </p>
+                        <img src="assets/img/icons/seta-right.png" alt="->">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="teory-section" id="tri">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>TEORIA DE RESPOSTA AO ITEM</h2>
+                    <p>Para calcular os resultados dos alunos, o Enem utiliza um conjunto de modelos estatÃ­sticos
+                        conhecido como Teoria de Resposta ao Item (TRI), que Ã© muito mais eficiente para avaliaÃ§Ã£o de
+                        uma grande quantidade de alunos e bastante diferente da simples soma de acertos das questÃµes
+                        realizada pelos tradicionais vestibulares.</p>
+                    <p>Mais do que quantificar as questÃµes acertadas, o que interessa para o Enem Ã© descobrir o que os
+                        alunos realmente aprenderam. Para isso, a TRI leva em conta a dificuldade de cada questÃ£o:
+                        aquela com baixo Ã­ndice de acerto (considerada difÃ­cil) tem um peso maior na pontuaÃ§Ã£o final
+                        do que questÃµes com alto Ã­ndice de acerto (consideradas fÃ¡ceis) â€“ para determinar esse
+                        Ã­ndice de dificuldade, o Inep â€œcalibraâ€ todas as perguntas do Exame antes de elaborar as
+                        provas, em eventos chamados prÃ©-testes. Dessa forma, a nota final do aluno depende do perfil de
+                        questÃµes que ele acerta, nÃ£o da quantidade.</p>
+                    <p>Com a TRI, a nota do aluno nÃ£o representa um desempenho individual, mas sim a posiÃ§Ã£o que ele
+                        ocupou na escala onde todos os demais participantes tambÃ©m sÃ£o incluÃ­dos. Essas escalas sÃ£o
+                        como uma reta numÃ©rica, seus nÃºmeros representam posiÃ§Ãµes. Por essa razÃ£o, ao divulgar o
+                        resultado do Enem, o MinistÃ©rio da EducaÃ§Ã£o (MEC/Inep) tambÃ©m indica as notas mÃ¡xima e
+                        mÃ­nima de cada prova â€“ sÃ£o elas que informam os candidatos mais e menos proficientes em cada
+                        Ã¡rea do conhecimento. Dessa maneira, quanto mais prÃ³ximo da nota mÃ­nima estiver um aluno, por
+                        exemplo, pode-se entender que ele demonstrou escasso domÃ­nio das competÃªncias e habilidades
+                        exigidas na prova e que uma intervenÃ§Ã£o pedagÃ³gica se faz necessÃ¡ria. As escalas de notas
+                        dos alunos no Enem, portanto, permitem a interpretaÃ§Ã£o do significado dos nÃºmeros divulgados
+                        e auxilia no processo de melhoria da qualidade do sistema educacional brasileiro.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="about-section" id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>SOBRE A TRIEduc</h2>
+                    <div class="card-icon-list">
+                        <div class="card-icon-item">
+                            <div class="icon-card-list">
+                                <img src="assets/img/icons/talk.png" alt="">
+                            </div>
+                            <h3>NOSSA HISTÃ“RIA</h3>
+                            <p>
+                                A TRIEduc foi fundada em 2015 com o ideal de divulgar a metodologia da Teoria da Resposta ao Item (TRI) entre professores e alunos do Ensino MÃ©dio e Superior, com o objetivo de proporcionar uma anÃ¡lise mais qualitativa sobre os resultados de avaliaÃ§Ãµes educacionais.
+                            </p>
+                        </div>
+                        <div class="card-icon-item">
+                            <div class="icon-card-list">
+                                <img src="assets/img/icons/lamp.png" alt="">
+                            </div>
+                            <h3>NOSSA VISÃƒO</h3>
+                            <p>
+                                Ser a melhor e mais moderna empresa de pesquisa e anÃ¡lise de dados educacionais do Brasil, reconhecida pelo seu rigor metodolÃ³gico, o desenvolvimento de processos exclusivos de estudo e captaÃ§Ã£o de dados e tambÃ©m pelo uso de tecnologia.
+                            </p>
+                        </div>
+                        <div class="card-icon-item">
+                            <div class="icon-card-list">
+                                <img src="assets/img/icons/share.png" alt="">
+                            </div>
+                            <h3>NOSSA MISSÃƒO</h3>
+                            <p>
+                                Apoiar a construÃ§Ã£o de sistemas educacionais de qualidade, a partir da interpretaÃ§Ã£o de dados educacionais por gestores, professores e pela sociedade brasileira, para a tomada de decisÃµes assertivas e melhoria continua do aprendizado de crianÃ§as, jovens e adultos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col col-4">
+
+                </div>
+                <div class="col col-4">
+                    <div class="item-rodape">
+                        <h3>LINKS</h3>
+                        <ul>
+                            <li><a href="">PÃ¡gina Inicial</a></li>
+                            <li><a href="">Enem 2019</a></li>
+                            <li><a href="">Simulador SiSU</a></li>
+                            <li><a href="">Enem</a></li>
+                            <li><a href="">TRI</a></li>
+                            <li><a href="">Sobre nÃ³s</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-4">
+                    <div class="item-rodape">
+                        <h3>CONTATO</h3>
+                        <p>
+
+                            suanotadoenem@gmail.com <br>
+                            Tel: (11) 3456-7890 <br>
+                            Rua Irmã Gabriela, 51 <br>
+                            SÃ£o Paulo - SP <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="col col-4">
+                    <div class="item-rodape">
+                        <h3>REDES SOCIAIS</h3>
+                        <ul class="lista-redes">
+                            <li><a href=""><img src="assets/img/icons/linkedin.png" alt=""></a></li>
+                            <li><a href=""><img src="assets/img/icons/facebook.png" alt=""></a></li>
+                            <li><a href=""><img src="assets/img/icons/twitter.png" alt=""></a></li>
+                            <li><a href=""><img src="assets/img/icons/googleplus.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="bottom-bar"></section>
+    <script>
+        document.getElementById("btn-menu").onclick = function () { toogleButton(false) };
+        document.getElementById("close-button").onclick = function () { toogleButton(true) };
+        function toogleButton(param) {
+            if (param) {
+                document.getElementById("menu-mobile").style.marginLeft = '-100%';
+            } else {
+                document.getElementById("menu-mobile").style.marginLeft = 0;
+            }
+
+        }
+    </script>
+    <script>
+        $('.menu ul li a[href^="#"]').on('click', function (e) {
+            e.preventDefault();
+            var id = $(this).attr('href'),
+                targetOffset = $(id).offset().top;
+
+            $('html, body').animate({
+                scrollTop: targetOffset - 70
+            }, 500);
+        });
+        $('#arrow-back').on('click', function (e) {
+            e.preventDefault();
+            var id = $(this).attr('href'),
+                targetOffset = $(id).offset().top;
+
+            $('html, body').animate({
+                scrollTop: targetOffset - 70
+            }, 500);
+        });
+    </script>
+
+
+</body>
+
+</html>
+
+

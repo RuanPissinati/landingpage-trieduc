@@ -1,0 +1,13 @@
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  margin-top: -128px;
+  border: 1px solid;
+  padding: 10px 17px!important;
+}
+.owl-carousel .owl-nav button.owl-next{
+  right: 0;
+}
+.owl-carousel .owl-nav button.owl-prev{
+  left: 0;
+}

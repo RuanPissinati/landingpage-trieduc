@@ -1,0 +1,25 @@
+html, body{
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.title-1{
+  font-size: var(--font-ex-lg);
+  line-height: 1em;
+  margin-bottom: 15px;
+}
+.title-2{
+  font-size: var(--font-lg);
+}
+.title-3{
+  font-size:var(--font-md);
+}
+.text{
+  font-size: var(--font-sm);
+}
+.title-1,
+.title-2,
+.title-3,
+.text{}
+
+.font-lighter{
+  font-weight: lighter;
+}

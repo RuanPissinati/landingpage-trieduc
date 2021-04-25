@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOTPAGE</title>
+ 
+ 
+  <script src="assets/lib/jquery.js"></script>
+  <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+
+  <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+</head>
+<body>
+  
+  <section class="section-container">
+    <div class="container">
+      <nav class="nav-menu">
+        <img src="assets/img/logo.png" alt="" class="nav-logo">
+        <ul class="nav-menu-list">
+          <li class="nav-menu-item"><a class="nav-menu-item-link">Sobre</a></li>
+          <li class="nav-menu-item"><a class="nav-menu-item-link">Depoimentos</a></li>
+          <li class="nav-menu-item"><a class="nav-menu-item-link">Planos</a></li>
+          <li class="nav-menu-item"><a class="nav-menu-item-link">Quero Conhecer</a></li>
+          <li class="nav-menu-item border"><a class="nav-menu-item-link">Entrar</a></li>
+        </ul>
+        <button class="mobile btn-hamburguer"></button>
+      </nav>
+    </div>
+  </section>
+
+  <section class="section-container section-banner">
+    <div class="container">
+      <div class="owl-carousel carousel-1 owl-theme">
+        <div class="card-banner">
+          <div class="col-1">
+            <div class="text-img">
+              <img style="width: 100px; height: 100px; border: 1px solid;" src="" alt="">
+              <h2 class="title-1">Lorem ipsum dolor, sit amet consectetur</h2>
+              <h3 class="title-2 font-lighter">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.  
+              </h3>
+            </div>
+            <button class="button">Clique aqui</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-container">
+    <div class="container">
+      <div class="row justify-content">
+        <h2 class="title-2">Titulo dessa Section</h2>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <div class="owl-carousel carousel-4 owl-theme">
+            <div class="card-feutures">
+              <h3 class="title-3">TITLE</h3>
+              <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis nihil alias earum nesciunt </p>
+            </div>
+            <div class="card-feutures">
+              <h3 class="title-3">TITLE</h3>
+              <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis nihil alias earum nesciunt </p>
+            </div>
+            <div class="card-feutures">
+              <h3 class="title-3">TITLE</h3>
+              <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis nihil alias earum nesciunt </p>
+            </div>
+            <div class="card-feutures">
+              <h3 class="title-3">TITLE</h3>
+              <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis nihil alias earum nesciunt </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content">
+        <button class="button">CONHEÇA NOSSOS PACOTES</button>
+      </div>
+    </div>
+  </section>
+  <section class="section-container">
+    <div class="container">
+      <div class="row justify-content">
+        <h2 class="title-2">Titulo dessa Section</h2>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <div class="owl-carousel owl-theme brands-carousel">
+            <img src="" alt="" style="width: 200px; height: 200px; border: 1px solid;">
+            <img src="" alt="" style="width: 200px; height: 200px; border: 1px solid;">
+            <img src="" alt="" style="width: 200px; height: 200px; border: 1px solid;">
+            <img src="" alt="" style="width: 200px; height: 200px; border: 1px solid;">
+
+            <img src="" alt="" style="width: 200px; height: 200px; border: 1px solid;">
+            <img src="" alt="" style="width: 200px; height: 200px; border: 1px solid;">
+            <img src="" alt="" style="width: 200px; height: 200px; border: 1px solid;">
+            <img src="" alt="" style="width: 200px; height: 200px; border: 1px solid;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="footer-nav-list-img">
+            <h3 class="footer-nav-title">TITLE List</h3>
+            <ul class="footer-nav-list-img">
+              <li class="footer-nav-list-img-item">
+                <a href="" class="footer-nav-list-img-item-link">
+                  <img class="img-item" src="" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-nav">
+            <h3 class="footer-nav-title">TITLE List</h3>
+            <ul class="footer-nav-list">
+              <li class="footer-nav-list-item">
+                <a href="" class="footer-nav-list-item-link">
+                  contato
+                </a>
+              </li>
+              <li class="footer-nav-list-item">
+                <a href="" class="footer-nav-list-item-link">
+                  contato
+                </a>
+              </li>
+              <li class="footer-nav-list-item">
+                <a href="" class="footer-nav-list-item-link">
+                  contato
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    $(document).ready(function(){
+  
+      $('.carousel-1').owlCarousel({
+        loop: true,
+        margin: 0,
+        responsiveClass: true,
+        items: 1,
+      });
+
+      $('.carousel-3').owlCarousel({
+        loop: false,
+        margin: 0,
+        responsiveClass: true,
+        mouseDrag: false,
+        nextElement: '<div class="next"></div>',
+        responsive:{
+          0:{
+            items: 1,
+            nav: true
+          },
+          415:{
+            items: 2,
+            nav: false
+          },
+          769:{
+            items: 3,
+            nav: true,
+            loop: false
+          }
+        }
+      });
+      $('.carousel-4').owlCarousel({
+        loop: false,
+        margin: 0,
+        responsiveClass: true,
+        mouseDrag: false,
+        responsive:{
+          0:{
+            items: 1,
+            nav: true
+          },
+          415:{
+            items: 3,
+            nav: false
+          },
+          769:{
+            items: 4,
+            nav: true,
+            loop: false
+          }
+        }
+      });
+      $('.brands-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        dots: true,
+        responsiveClass: true,
+        nav: true,
+        center: true,
+        items: 4,
+        });
+    });
+  </script>
+</body>
+</html>

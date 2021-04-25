@@ -1,0 +1,71 @@
+/* grid */
+.section {
+    display: table;
+    width: 100%;
+    /* border: 1px solid #000 */
+}
+.container {
+    display: table;
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 30px;
+    /* background: #fff; */
+    /* border: 1px solid green; */
+}
+.container.full{
+    max-width: 100%;
+}
+.row {
+    display: table;
+    width: 100%;
+    height: auto;
+    min-height: 30px;
+    position: relative;
+
+    /* background: #ccc; */
+    /* border: 1px solid red; */
+}
+.row::before{
+    clear: both;
+}
+
+.col{
+    display: table;
+    padding: 0 15px 0 15px;
+    float: left;
+    min-height: 30px;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+
+    /* background: yellowgreen; */
+    /* border: 1px solid blue; */
+}
+.col.col-2{
+    width: 50%;
+    max-width: 50%;
+}
+.col.col-4{
+    width: 25%;
+    max-width: 25%;
+}
+
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+@media screen and (max-width: 866px) {
+
+}
+@media screen and (max-width: 616px) {
+    .col.col-2{
+        width: 100%;
+        max-width: 100%;
+    }
+}

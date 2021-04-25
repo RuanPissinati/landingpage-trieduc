@@ -1,0 +1,35 @@
+.nav-menu{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo{
+  display: block;
+}
+.nav-menu-list{
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid; */
+}
+.nav-menu-item:first-child{
+  margin-left: 0;
+}
+.nav-menu-item.main{
+  font-weight: bold;
+}
+.nav-menu-item{
+  display: block;
+  /* border: 1px solid; */
+}
+.nav-menu-item-link:hover{
+  color: var(--primary-color);
+}
+.nav-menu-item-link{
+  font-size: var(--font-sm);
+  cursor: pointer;
+  /* border: 1px solid blue; */
+}
+
+/* Mobile */
+.btn-hamburguer{}

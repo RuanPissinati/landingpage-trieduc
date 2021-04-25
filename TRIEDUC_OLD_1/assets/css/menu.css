@@ -1,0 +1,20 @@
+.brand h1{
+    letter-spacing: -3px;
+    color: #fff;
+}
+.menu-list{
+    list-style: none;
+    /* margin-right: -15px; */
+}
+.menu-list .menu-list-item {
+    padding: 10px;
+    display: inline-block;
+    background: rgb(56, 56, 189)
+}
+.menu-list .menu-list-item a:hover{
+    text-decoration: underline;
+}
+.menu-list .menu-list-item a{
+    color: #fff;
+    text-decoration: none;
+}

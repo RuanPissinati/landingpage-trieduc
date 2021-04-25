@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #1DADF2;
+  --gradiente-second-color: #0F5779;
+  --second-color: #000;
+  --third-color: #fff;
+  --font-primary-color: #1DADF2;
+  --font-second-color: #000;
+  --font-third-color: #fff;
+  --font-white: #fff;
+  --font-black: #000;
+  --bg-banner-color: orange;
+  --bg-white: white;
+  --bg-black: black;
+  /* Font Size's */
+  --font-sm: 13px;
+  --font-normal: 16px;
+  --font-md: 18px;
+  --font-lg: 23px;
+  --font-ex-lg: 32px;
+  --font-giant: 70px;
+  /* --font-sm: 0.85em;
+  --font-normal: 1em;
+  --font-md: 1.1em;
+  --font-lg: 1.5em;
+  --font-ex-lg: 3em;
+  --font-giant: 4em; */
+}
